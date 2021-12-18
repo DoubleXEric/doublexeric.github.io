@@ -2,6 +2,7 @@
 ## Projects
 
 - [PONG](https://github.com/DoubleXEric/PONG)
+- [Website](https://github.com/DoubleXEric/doublexeric.github.io)
 
 ## Contact me
 
