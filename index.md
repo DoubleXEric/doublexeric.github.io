@@ -3,7 +3,7 @@
 
 - [PONG](https://github.com/DoubleXEric/PONG)
 
-## Contact
+## Contact me
 
 - [Discord](https://discordapp.com/users/709529435795095656)
 - [Instagram](https://www.instagram.com/doublexeric/)
