@@ -30,8 +30,8 @@ body {
     width: 120px;
     height: 120px;
     margin: 0 auto 20px;
-    animation: borderAnimationProfilePic 3s linear infinite;
-    -webkit-animation: borderAnimationProfilePic 3s linear infinite;
+    animation: borderAnimationProfilePic 3s linear 1s infinite alternate;
+    -webkit-animation: borderAnimationProfilePic 3s linear 1s infinite alternate;
 }
 
 .sidebar .profile-pic {
@@ -42,10 +42,10 @@ body {
 
 @keyframes borderAnimationProfilePic {
     0% {
-        box-shadow: 0 0 3px rgba(255, 77, 77, 0.8), 0 0 9px rgba(255, 77, 77, 0.8), 0 0 18px rgba(255, 77, 77, 0.8), 0 0 36px rgba(255, 77, 77, 0.8);
+        box-shadow: 0 0 3px rgba(135, 35, 196, 0.8), 0 0 9px rgba(135, 35, 196, 0.8), 0 0 18px rgba(135, 35, 196, 0.8), 0 0 36px rgba(135, 35, 196, 0.8);
     }
     50% {
-        box-shadow: 0 0 6px rgba(0, 255, 0, 0.8), 0 0 12px rgba(0, 255, 0, 0.8), 0 0 24px rgba(0, 255, 0, 0.8), 0 0 48px rgba(0, 255, 0, 0.8);
+        box-shadow: 0 0 6px rgba(14, 14, 201, 0.8), 0 0 12px rgba(14, 14, 201, 0.8), 0 0 24px rgba(14, 14, 201, 0.8), 0 0 48px rgba(14, 14, 201, 0.8);
     }
     100% {
         box-shadow: 0 0 3px rgba(255, 77, 77, 0.8), 0 0 9px rgba(255, 77, 77, 0.8), 0 0 18px rgba(255, 77, 77, 0.8), 0 0 36px rgba(255, 77, 77, 0.8);
@@ -54,10 +54,10 @@ body {
 
 @keyframes borderAnimationInfoBox {
     0% {
-        box-shadow: 0 0 1px rgba(255, 77, 77, 0.8), 0 0 3px rgba(255, 77, 77, 0.8), 0 0 6px rgba(255, 77, 77, 0.8), 0 0 12px rgba(255, 77, 77, 0.8);
+        box-shadow: 0 0 1px rgba(135, 35, 196, 0.8), 0 0 3px rgba(135, 35, 196, 0.8), 0 0 6px rgba(135, 35, 196, 0.8), 0 0 12px rgba(135, 35, 196, 0.8);
     }
     50% {
-        box-shadow: 0 0 2px rgba(0, 255, 0, 0.8), 0 0 4px rgba(0, 255, 0, 0.8), 0 0 8px rgba(0, 255, 0, 0.8), 0 0 16px rgba(0, 255, 0, 0.8);
+        box-shadow: 0 0 2px rgba(14, 14, 201, 0.8), 0 0 4px rgba(14, 14, 201, 0.8), 0 0 8px rgba(14, 14, 201, 0.8), 0 0 16px rgba(14, 14, 201, 0.8);
     }
     100% {
         box-shadow: 0 0 1px rgba(255, 77, 77, 0.8), 0 0 3px rgba(255, 77, 77, 0.8), 0 0 6px rgba(255, 77, 77, 0.8), 0 0 12px rgba(255, 77, 77, 0.8);
@@ -73,8 +73,8 @@ body {
     padding: 10px;
     background-color: #333;
     border-radius: 8px;
-    animation: borderAnimationInfoBox 3s linear infinite;
-    -webkit-animation: borderAnimationInfoBox 3s linear infinite;
+    animation: borderAnimationInfoBox 3s linear 1s infinite alternate-reverse;
+    -webkit-animation: borderAnimationInfoBox 3s linear 1s infinite alternate-reverse;
 }
 
 .sidebar .info-box h2 {
