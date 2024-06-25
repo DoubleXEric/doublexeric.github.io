@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+}
+
+.sidebar {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+}
+
+.sidebar .profile {
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebar .profile-pic-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    animation: borderAnimationProfilePic 3s linear infinite;
+    -webkit-animation: borderAnimationProfilePic 3s linear infinite;
+}
+
+.sidebar .profile-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+@keyframes borderAnimationProfilePic {
+    0% {
+        box-shadow: 0 0 3px rgba(255, 77, 77, 0.8), 0 0 9px rgba(255, 77, 77, 0.8), 0 0 18px rgba(255, 77, 77, 0.8), 0 0 36px rgba(255, 77, 77, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 6px rgba(0, 255, 0, 0.8), 0 0 12px rgba(0, 255, 0, 0.8), 0 0 24px rgba(0, 255, 0, 0.8), 0 0 48px rgba(0, 255, 0, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 3px rgba(255, 77, 77, 0.8), 0 0 9px rgba(255, 77, 77, 0.8), 0 0 18px rgba(255, 77, 77, 0.8), 0 0 36px rgba(255, 77, 77, 0.8);
+    }
+}
+
+@keyframes borderAnimationInfoBox {
+    0% {
+        box-shadow: 0 0 1px rgba(255, 77, 77, 0.8), 0 0 3px rgba(255, 77, 77, 0.8), 0 0 6px rgba(255, 77, 77, 0.8), 0 0 12px rgba(255, 77, 77, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 2px rgba(0, 255, 0, 0.8), 0 0 4px rgba(0, 255, 0, 0.8), 0 0 8px rgba(0, 255, 0, 0.8), 0 0 16px rgba(0, 255, 0, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 1px rgba(255, 77, 77, 0.8), 0 0 3px rgba(255, 77, 77, 0.8), 0 0 6px rgba(255, 77, 77, 0.8), 0 0 12px rgba(255, 77, 77, 0.8);
+    }
+}
+
+.sidebar h1 {
+    margin-bottom: 10px;
+}
+
+.sidebar .info-box {
+    margin: 20px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 8px;
+    animation: borderAnimationInfoBox 3s linear infinite;
+    -webkit-animation: borderAnimationInfoBox 3s linear infinite;
+}
+
+.sidebar .info-box h2 {
+    margin-top: 0;
+}
+
+.main-content {
+    margin-left: 30%;
+    transition: margin-left 0.5s;
+    padding: 20px;
+    width: 70%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.main-box {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.profile-pic-container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
