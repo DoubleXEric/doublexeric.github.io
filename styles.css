@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #0C090A;
     display: flex;
 }
 
@@ -42,25 +42,25 @@ body {
 
 @keyframes borderAnimationProfilePic {
     0% {
-        box-shadow: 0 0 3px rgba(135, 35, 196, 0.8), 0 0 9px rgba(135, 35, 196, 0.8), 0 0 18px rgba(135, 35, 196, 0.8), 0 0 36px rgba(135, 35, 196, 0.8);
+        box-shadow: 0 0 3px rgba(255, 254, 252, 0.8), 0 0 9px rgba(255, 254, 252, 0.8), 0 0 18px rgba(255, 254, 252, 0.8), 0 0 36px rgba(255, 254, 252, 0.8);
     }
     50% {
-        box-shadow: 0 0 6px rgba(14, 14, 201, 0.8), 0 0 12px rgba(14, 14, 201, 0.8), 0 0 24px rgba(14, 14, 201, 0.8), 0 0 48px rgba(14, 14, 201, 0.8);
+        box-shadow: 0 0 6px rgba(102, 102, 102, 0.8), 0 0 12px rgba(102, 102, 102, 0.8), 0 0 24px rgba(102, 102, 102, 0.8), 0 0 48px rgba(102, 102, 102, 0.8);
     }
     100% {
-        box-shadow: 0 0 3px rgba(255, 77, 77, 0.8), 0 0 9px rgba(255, 77, 77, 0.8), 0 0 18px rgba(255, 77, 77, 0.8), 0 0 36px rgba(255, 77, 77, 0.8);
+        box-shadow: 0 0 3px rgba(186, 0, 19, 0.8), 0 0 9px rgba(186, 0, 19, 0.8), 0 0 18px rgba(186, 0, 19, 0.8), 0 0 36px rgba(186, 0, 19, 0.8);
     }
 }
 
 @keyframes borderAnimationInfoBox {
     0% {
-        box-shadow: 0 0 1px rgba(135, 35, 196, 0.8), 0 0 3px rgba(135, 35, 196, 0.8), 0 0 6px rgba(135, 35, 196, 0.8), 0 0 12px rgba(135, 35, 196, 0.8);
+        box-shadow: 0 0 1px rgba(255, 254, 252, 0.8), 0 0 3px rgba(255, 254, 252, 0.8), 0 0 6px rgba(255, 254, 252, 0.8), 0 0 12px rgba(255, 254, 252, 0.8);
     }
     50% {
-        box-shadow: 0 0 2px rgba(14, 14, 201, 0.8), 0 0 4px rgba(14, 14, 201, 0.8), 0 0 8px rgba(14, 14, 201, 0.8), 0 0 16px rgba(14, 14, 201, 0.8);
+        box-shadow: 0 0 2px rgba(102, 102, 102, 0.8), 0 0 4px rgba(102, 102, 102, 0.8), 0 0 8px rgba(102, 102, 102, 0.8), 0 0 16px rgba(102, 102, 102, 0.8);
     }
     100% {
-        box-shadow: 0 0 1px rgba(255, 77, 77, 0.8), 0 0 3px rgba(255, 77, 77, 0.8), 0 0 6px rgba(255, 77, 77, 0.8), 0 0 12px rgba(255, 77, 77, 0.8);
+        box-shadow: 0 0 1px rgba(186, 0, 19, 0.8), 0 0 3px rgba(186, 0, 19, 0.8), 0 0 6px rgba(186, 0, 19, 0.8), 0 0 12px rgba(186, 0, 19, 0.8);
     }
 }
 
@@ -104,12 +104,12 @@ body {
 }
 
 .main-box {
-    opacity: 1;
+    opacity: 0.65;
     margin: 20px 0;
     padding: 20px;
     border: 5px solid #ddd;
     border-radius: 8px;
-    background-color: #fafafa;
+    background-color: #0C090A;
 }
 
 .profile-pic-container {
@@ -164,6 +164,6 @@ nav ul li button {
     position: absolute;
     display: block;
     top: 0;
-    left: 0;
+    left: 30%;
     z-index: 0;
 }
