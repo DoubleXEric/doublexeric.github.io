@@ -53,7 +53,16 @@
     </div>
 
     <div id="main" class="main-content">
-        <button class="openbtn" onclick="toggleSidebar()">&#9776;</button>
+        <nav>
+            <ul>
+                <li><button class="openbtn" onclick="toggleSidebar()">&#9776;</button></li>
+                <li><a href="#">START</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">ABOUT ME</a></li>
+            </ul>
+        </nav>
+
         <h2>Welcome to my personal website.</h2>
         <div class="main-box" style="padding-top: 0.1em;">
             <h2 style="padding-left: 0.0em;">Skills and Competencies</h2>
@@ -65,12 +74,14 @@
             <p style="padding-left: 0.6em;">I am particularly interested in telematics, computer architectures, and low-level programming. I am eager to expand my knowledge in these areas and explore further advancements in the field.</p>
         </div>
         <div class="main-box" style="padding-top: 0.1em;">
-            <h2>Projects and Portfolio</h2>
-            <p>As I am still in the early stages of my studies, I have not yet completed extensive projects. However, I plan to work on exciting projects in the coming semesters and share my results here.</p>
-            <p>Currently, I do not have code samples or projects on GitHub, but I plan to publish my first projects soon.</p>
+            <h2 style="padding-left: 0.0em;">Projects and Portfolio</h2>
+            <p style="padding-left: 0.3em;">As I am still in the early stages of my studies, I have not yet completed extensive projects. However, I plan to work on exciting projects in the coming semesters and share my results here.</p>
+            <p style="padding-left: 0.3em;">Currently, I do not have code samples or projects on GitHub, but I plan to publish my first projects soon.</p>
         </div>
     </div>
 
     <script src="script.js"></script>
+    <canvas class="background"></canvas>
+    <script src="./js/vendor/particles.min.js"></script>
 </body>
 </html>

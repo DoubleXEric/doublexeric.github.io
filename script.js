@@ -11,3 +11,32 @@ function toggleSidebar() {
     }
 }
 
+window.onload = function () {
+    var particles = Particles.init({
+        selector: '.background',
+        maxParticles: 400,
+
+
+// options for breakpoints
+        responsive: [
+            {
+                breakpoint: 768,
+                options: {
+                    maxParticles: 200,
+                    color: '#48F2E3',
+                    connectParticles: true
+                }
+            }
+        ]
+    });
+};
+
+// E.g. gets called on a button click
+function pause() {
+    particles.pauseAnimation();
+}
+
+// E.g. gets called on a button click
+function resume() {
+    particles.resumeAnimation();
+}
